@@ -9,7 +9,7 @@ return [
 	],
 	'/socket[/]' => [
 		'get' => [
-			'handler' => "App\Controllers\SocketController:connect",
+			'handler' => "App\Controllers\SocketController:add",
 			'name' => 'api_socket',
 			'auth' => false
 		]
